@@ -24,33 +24,38 @@ The Influencer Collaboration Platform is designed to bridge TikTok influencers a
 
 ### Installation
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/yourusername/InfluencerCollabPlatform.git
    cd InfluencerCollabPlatform
 ```
+
 2. Backend Setup
-   ```bash
+```bash
 cd backend
 npm install
 ```
+
 3. Create a .env file in the backend directory with the following:
-   ```bash
-   MONGO_URI=your_mongo_db_connection_string
-   ```
+```bash
+MONGO_URI=your_mongo_db_connection_string
+```
+
 4. Start the backend server:
-   ```bash
+```bash
 node server.js
 ```
+
 5. Frontend setup:
-   ```bash
+```bash
 cd ../frontend
 npm install
 npm start
 ```
+
 6. Access the app at
-   ```
-   http://localhost:3000
-   ```
+```
+http://localhost:3000
+```
 
 ### Future Work
 - TikTok API Integration: Connect to TikTok’s API for real-time influencer data.
